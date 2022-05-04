@@ -1,0 +1,346 @@
+.left_side{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(246, 191, 91);
+}
+/* CHANGE IMAGE */
+#myfile{
+  display: none;
+}
+#inputNom{
+  display: none;
+}
+#valideNom{
+    display: none;
+}
+.copyright {
+    background-color: rgb(22, 38, 97);
+    padding: 10px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+/* scrollBar left side */
+
+div.resume{
+    width: 100%;
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 2% 15%;
+    text-align: justify;
+    text-overflow: ellipsis;
+}
+/* Navigateur Firefox */
+div.resume {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: blue orange; /* scroll thumb and track */
+  }
+ /* Navigateur Chrome, Edge et Safari  */
+div.resume::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  div.resume::-webkit-scrollbar-track {
+    background: rgb(246, 191, 91); /* color of the tracking area */
+  }
+  
+  div.resume::-webkit-scrollbar-thumb {
+    background-color: rgb(246, 191, 91); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid whitesmoke; /* creates padding around scroll thumb */
+  }
+
+div.centreInteret,div.langue{
+    width: 100%;
+    height: 75px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0% 20% 0% 10%;
+    text-align: justify;
+}
+
+/* Navigateur Firefox */
+div.langue {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: rgb(246, 191, 91) whitesmoke; /* scroll thumb and track */
+  }
+ /* Navigateur Chrome, Edge et Safari  */
+div.langue::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  div.langue::-webkit-scrollbar-track {
+    background:whiteyelllow ; /* color of the tracking area */
+  }
+  
+  div.langue::-webkit-scrollbar-thumb {
+    background-color: rgb(246, 191, 91); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid whitesmoke; /* creates padding around scroll thumb */
+  }
+
+/* Navigateur Firefox */
+div.centreInteret {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: rgb(246, 191, 91) whitesmoke; /* scroll thumb and track */
+  }
+ /* Navigateur Chrome, Edge et Safari  */
+div.centreInteret::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  div.centreInteret::-webkit-scrollbar-track {
+    background:whiteyellow ; /* color of the tracking area */
+  }
+  
+  div.centreInteret::-webkit-scrollbar-thumb {
+    background-color: rgb(246, 191, 91); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid whitesmoke; /* creates padding around scroll thumb */
+  }
+
+
+
+
+/* scrollBar right side */
+
+
+div.diplome, div.formation, div.experience, div.competences, div.logiciel{
+    width: 100%;
+    height: 146.35px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 2% 15%;
+    text-align: justify;
+}
+
+/* Navigateur Firefox */
+div.diplome {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: blue orange; /* scroll thumb and track */
+  }
+ /* Navigateur Chrome, Edge et Safari  */
+div.diplome::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  div.diplome::-webkit-scrollbar-track {
+    background: rgb(22, 38, 97); /* color of the tracking area */
+  }
+  
+  div.diplome::-webkit-scrollbar-thumb {
+    background-color: whitesmoke; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid rgb(22, 38, 97); /* creates padding around scroll thumb */
+  }
+  /* Navigateur Firefox */
+div.formation {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: blue orange; /* scroll thumb and track */
+  }
+ /* Navigateur Chrome, Edge et Safari  */
+div.formation::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  div.formation::-webkit-scrollbar-track {
+    background: rgb(22, 38, 97); /* color of the tracking area */
+  }
+  
+  div.formation::-webkit-scrollbar-thumb {
+    background-color: whitesmoke; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid rgb(22, 38, 97)    ; /* creates padding around scroll thumb */
+  }
+  /* Navigateur Firefox */
+div.experience {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: blue orange; /* scroll thumb and track */
+  }
+ /* Navigateur Chrome, Edge et Safari  */
+div.experience::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  div.experience::-webkit-scrollbar-track {
+    background: rgb(22, 38, 97); /* color of the tracking area */
+  }
+  
+  div.experience::-webkit-scrollbar-thumb {
+    background-color: whitesmoke; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid rgb(22, 38, 97); /* creates padding around scroll thumb */
+  }
+  /* Navigateur Firefox */
+div.competences {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: blue orange; /* scroll thumb and track */
+  }
+ /* Navigateur Chrome, Edge et Safari  */
+div.competences::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  div.competences::-webkit-scrollbar-track {
+    background: rgb(22, 38, 97); /* color of the tracking area */
+  }
+  
+  div.competences::-webkit-scrollbar-thumb {
+    background-color: whitesmoke; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid rgb(22, 38, 97); /* creates padding around scroll thumb */
+  }
+  /* Navigateur Firefox */
+div.logiciel {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: blue orange; /* scroll thumb and track */
+  }
+ /* Navigateur Chrome, Edge et Safari  */
+div.logiciel::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  div.logiciel::-webkit-scrollbar-track {
+    background: rgb(22, 38, 97); /* color of the tracking area */
+  }
+  
+  div.logiciel::-webkit-scrollbar-thumb {
+    background-color: whitesmoke; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid rgb(22, 38, 97); /* creates padding around scroll thumb */
+  }
+
+
+
+
+
+  /* //time line */
+
+  body{margin-top:20px;}
+  .timeline {
+      border-left: 3px solid #727cf5;
+      border-bottom-right-radius: 4px;
+      border-top-right-radius: 4px;
+      background: rgba(114, 124, 245, 0.09);
+      margin: 0 auto;
+      letter-spacing: 0.2px;
+      position: relative;
+      line-height: 1.4em;
+      font-size: 1.03em;
+      padding: 50px;
+      list-style: none;
+      text-align: left;
+      max-width: 40%;
+  }
+  
+  @media (max-width: 767px) {
+      .timeline {
+          max-width: 98%;
+          padding: 25px;
+      }
+  }
+  
+  .timeline h1 {
+      font-weight: 300;
+      font-size: 1.4em;
+  }
+  
+  .timeline h2,
+  .timeline h3 {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 10px;
+  }
+  
+  .timeline .event {
+      border-bottom: 1px dashed #e8ebf1;
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+      position: relative;
+  }
+  
+  @media (max-width: 767px) {
+      .timeline .event {
+          padding-top: 30px;
+      }
+  }
+  
+  .timeline .event:last-of-type {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border: none;
+  }
+  
+  .timeline .event:before,
+  .timeline .event:after {
+      position: absolute;
+      display: block;
+      top: 0;
+  }
+  
+  .timeline .event:before {
+      left: -207px;
+      content: attr(data-date);
+      text-align: right;
+      font-weight: 100;
+      font-size: 0.9em;
+      min-width: 120px;
+  }
+  
+  @media (max-width: 767px) {
+      .timeline .event:before {
+          left: 0px;
+          text-align: left;
+      }
+  }
+  
+  .timeline .event:after {
+      -webkit-box-shadow: 0 0 0 3px #727cf5;
+      box-shadow: 0 0 0 3px #727cf5;
+      left: -55.8px;
+      background: #fff;
+      border-radius: 50%;
+      height: 9px;
+      width: 9px;
+      content: "";
+      top: 5px;
+  }
+  
+  @media (max-width: 767px) {
+      .timeline .event:after {
+          left: -31.8px;
+      }
+  }
+  
+  .rtl .timeline {
+      border-left: 0;
+      text-align: right;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 4px;
+      border-top-left-radius: 4px;
+      border-right: 3px solid #727cf5;
+  }
+  
+  .rtl .timeline .event::before {
+      left: 0;
+      right: -170px;
+  }
+  
+  .rtl .timeline .event::after {
+      left: 0;
+      right: -55.8px;
+  }
+
+
+
+
+  /* time line */
+
+ 

@@ -1,0 +1,154 @@
+    html,
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .chrono {
+        position: absolute;
+        top: 10%;
+        left: 70%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 200%;
+        color: blueviolet;
+        background-color: white;
+        padding: 0% 3%;
+    }
+    
+    .prsn_cour {
+        position: absolute;
+        top: 68%;
+        left: 10%;
+        /* margin: 35% 0% 0% 10%; */
+    }
+    
+    .prsn_saute {
+        position: absolute;
+        margin: 25% 0% 0% 10%;
+        display: none;
+    }
+    
+    .animation {
+        animation: prsn_saute 3000ms infinite;
+    }
+    
+    .prsn_saute img {
+        object-fit: cover;
+    }
+    /* animation saut du personnage*/
+    
+    @keyframes prsn_saute {
+        0% {
+            top: 40px;
+        }
+        25% {
+            top: 0px;
+        }
+        50% {
+            top: 130px;
+        }
+        100% {
+            top: 20px;
+        }
+    }
+    
+    .prsn_accroupi {
+        position: absolute;
+        margin: 37% 0% 0% 10%;
+        display: none;
+    }
+    
+    .animations {
+        animation: prsn_accroupi 3200ms infinite;
+    }
+    
+    .prsn_accroupi img {
+        object-fit: cover;
+    }
+    /* animation accroupi du personnage*/
+    
+    @keyframes prsn_accroupi {
+        0% {
+            top: 10px;
+        }
+        25% {
+            top: 10px;
+        }
+        50% {
+            top: 10px
+        }
+        100% {
+            top: 10px;
+        }
+    }
+    /* obstacles bas */
+    
+    .obstaclesBas {
+        position: absolute;
+        top: 550px;
+        display: block;
+        animation: obstaclesBas 7s infinite;
+    }
+    
+    .obstaclesBas img {
+        object-fit: cover;
+    }
+    /* animation obstaclesBas */
+    
+    @keyframes obstaclesBas {
+        0% {
+            left: 1280px;
+        }
+        100% {
+            left: -150px;
+        }
+    }
+    /* obstacle haut */
+    
+    .obstaclesHaut {
+        position: absolute;
+        top: 450px;
+        display: block;
+        animation: obstaclesHaut 15s infinite;
+    }
+    
+    .obstaclesHaut img {
+        object-fit: cover;
+    }
+    /* animation obstaclesHaut */
+    
+    @keyframes obstaclesHaut {
+        0% {
+            left: 1280px;
+        }
+        100% {
+            left: -150px;
+        }
+    }
+    
+    .direction {
+        position: absolute;
+        margin: 30% 0% 0% 85%;
+    }
+    /* arriere plan */
+    
+    .arriere_plan {
+        width: 1396px;
+        height: 720px;
+        overflow: hidden;
+        position: relative;
+        float: left;
+    }
+    
+    .arriere_plan ul {
+        /* 4 images donc 4 x 100% */
+        width: 400%;
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .arriere_plan li {
+        float: left;
+    }
