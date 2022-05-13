@@ -29,7 +29,7 @@
 
 div.resume{
     width: 100%;
-    height: 110px;
+    height: 150px;
     overflow-x: hidden;
     overflow-y: auto;
     padding: 2% 15%;
@@ -58,7 +58,7 @@ div.resume::-webkit-scrollbar {
 
 div.centreInteret,div.langue{
     width: 100%;
-    height: 75px;
+    height: 80px;
     overflow-x: hidden;
     overflow-y: auto;
     padding: 0% 20% 0% 10%;
@@ -113,7 +113,7 @@ div.centreInteret::-webkit-scrollbar {
 
 div.diplome, div.formation, div.experience, div.competences, div.logiciel{
     width: 100%;
-    height: 146.35px;
+    height: 200px;
     overflow-x: hidden;
     overflow-y: auto;
     padding: 2% 15%;
@@ -196,25 +196,7 @@ div.competences::-webkit-scrollbar {
     border-radius: 20px; /* roundness of the scroll thumb */
     border: 3px solid rgb(22, 38, 97); /* creates padding around scroll thumb */
   }
-  /* Navigateur Firefox */
-div.logiciel {
-    scrollbar-width: thin; /* "auto" or "thin" */
-    scrollbar-color: blue orange; /* scroll thumb and track */
-  }
- /* Navigateur Chrome, Edge et Safari  */
-div.logiciel::-webkit-scrollbar {
-    width: 10px; /* width of the entire scrollbar */
-  }
-  
-  div.logiciel::-webkit-scrollbar-track {
-    background: rgb(22, 38, 97); /* color of the tracking area */
-  }
-  
-  div.logiciel::-webkit-scrollbar-thumb {
-    background-color: whitesmoke; /* color of the scroll thumb */
-    border-radius: 20px; /* roundness of the scroll thumb */
-    border: 3px solid rgb(22, 38, 97); /* creates padding around scroll thumb */
-  }
+
 
 
 
